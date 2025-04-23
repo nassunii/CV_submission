@@ -54,3 +54,10 @@
 
 본 프로젝트는 제한된 환경에서도  
 **실용적인 객체 탐지 모델 설계 방향**을 제시합니다.
+
+---
+1. 자신의 git 다운로드 or clone
+2. 아래 파일 다운로드 후 프로젝트 파일에 삽입
+3. conda create -n CV python=3.10
+4. pip install -r requirements.txt
+5. ipynb 실행
