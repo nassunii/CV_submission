@@ -59,5 +59,6 @@
 1. 자신의 git 다운로드 or clone
 2. 아래 파일 다운로드 후 프로젝트 파일에 삽입
 3. conda create -n CV python=3.10
+3.5 conda activate CV
 4. pip install -r requirements.txt
 5. ipynb 실행
