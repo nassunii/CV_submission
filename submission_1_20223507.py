@@ -72,7 +72,7 @@ def submission_1_20223507(yaml_path, output_json_path):
     output_dir ='tmp'
     optim_args = {'optimizer': optimizer, 'lr': lr, 'momentum': momentum, 'weight_decay': weight_decay}
     devices = [0]
-    device = torch.device("cpu") #"cuda:"+str(devices[0])) if len(devices)>0 else torch.device("cpu")
+    device = torch.device("cuda:"+str(devices[0])) if len(devices)>0 else torch.device("cpu")
     ex_dict['Experiment Time'] = Experiments_Time
     ex_dict['Epochs'] = epochs
     ex_dict['Batch Size'] = batch_size
